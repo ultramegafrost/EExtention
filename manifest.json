@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "EGBalpha",
+  "description": "egb.com application",
+  "version": "0.1",
+
+  "icons": {
+    "128": "calculator-128.png",
+    "16": "calculator-16.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+"browser_action": {
+  "default_title": "EGBalpha",
+  "default_popup": "popup.html"
+},
+
+  "options_page": "options.html"
+}
